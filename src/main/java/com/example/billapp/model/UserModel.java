@@ -39,4 +39,5 @@ public class UserModel {
 
     @Column(name = "tel_number")
     private String telNumber;
+
 }

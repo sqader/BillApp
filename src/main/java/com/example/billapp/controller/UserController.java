@@ -24,5 +24,6 @@ public class UserController {
 
         }
         return new RedirectView("/users");
+
     }
 }

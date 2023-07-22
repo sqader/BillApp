@@ -14,6 +14,7 @@ public class UserService {
     private final UserRepository userRepository;
 
 
+
     public void addUser(UserModel user) {
         userRepository.save(user);
     }
