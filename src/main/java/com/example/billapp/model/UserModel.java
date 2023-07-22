@@ -37,7 +37,7 @@ public class UserModel {
     @Column(name = "bank")
     private String bank;
 
-    @Column(name = "tel_number")
+    @Column(name = "numer_telefonu")
     private String telNumber;
 
 }
