@@ -51,7 +51,7 @@ public class ContractorController {
         return new RedirectView("/contractors");
     }
 
-    @PostMapping("/edit/{id}")
+    @PostMapping("/del/{id}")
     public RedirectView deleteContractor(@PathVariable("id") Long id) {
         cS.removeContractor(id);
         return new RedirectView("/contractors");
